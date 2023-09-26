@@ -18,3 +18,11 @@ print(age / temperature)
 print(age ** temperature)
 
 print(intro + first_name)
+
+def calculate_area():
+    length = float(input("What is the length of your rectangle?: "))
+    width = float(input("What is the width of your rectangle?: "))
+    area = length * width
+    print(f"The area of your rectangle is {area} square feet.")
+
+calculate_area()
