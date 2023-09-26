@@ -49,5 +49,4 @@ while age == 16:
     print(numList[3] ** 3)
     print(numList[4] ** 3)
     break
-
 # why would you ever use a while loop for this it makes no sense just use a for loop????
