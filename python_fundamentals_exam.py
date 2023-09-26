@@ -10,3 +10,9 @@ too_hot = False
 print(type(age))
 print(type(temperature))
 print(type(too_hot))
+
+print(age + temperature)
+print(age - temperature)
+print(age * temperature)
+print(age / temperature)
+print(age ** temperature)
