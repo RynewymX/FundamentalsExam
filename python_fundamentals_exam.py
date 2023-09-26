@@ -1,3 +1,5 @@
+import numpy as np
+
 intro = "Hello World"
 print(intro)
 
@@ -35,3 +37,8 @@ elif num1 < 0:
     print("Your number is negative.")
 else:
     print("Your number is 0.")
+
+numList = [4, 9, 16, 25, 36]
+print(numList)
+for item in numList:
+    print(np.sqrt(item))
