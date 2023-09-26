@@ -27,3 +27,11 @@ def calculate_area(length, width):
 
 calculate_area(length, width)
 calculate_area(age, temperature)
+
+num1 = float(input("Give me a number: "))
+if num1 > 0:
+    print("Your number is positive.")
+elif num1 < 0:
+    print("Your number is negative.")
+else:
+    print("Your number is 0.")
