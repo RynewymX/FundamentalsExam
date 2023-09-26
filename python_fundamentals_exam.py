@@ -16,3 +16,5 @@ print(age - temperature)
 print(age * temperature)
 print(age / temperature)
 print(age ** temperature)
+
+print(intro + first_name)
