@@ -42,3 +42,12 @@ numList = [4, 9, 16, 25, 36]
 print(numList)
 for item in numList:
     print(np.sqrt(item))
+while age == 16:
+    print(numList[0] ** 3)
+    print(numList[1] ** 3)
+    print(numList[2] ** 3)
+    print(numList[3] ** 3)
+    print(numList[4] ** 3)
+    break
+
+# why would you ever use a while loop for this it makes no sense just use a for loop????
